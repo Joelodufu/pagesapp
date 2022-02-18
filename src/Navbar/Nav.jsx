@@ -13,6 +13,8 @@ const Container = styled.div`
 const Logo = styled.div`
     flex:1;
     border-left:solid .5px grey;
+    display:flex;
+    align-items:center;
 `
 
 const Middle=styled.div`
@@ -29,20 +31,26 @@ const Left= styled.div`
     border-left:solid .5px grey;
 
 `
+
+const Image = styled.img`
+   height:100%;
+   margin-left:10px;
+`
 const Nav = () => {
   return (
     <Container>
         <Logo>
-
+            <Image src='./logo.png'/>
+            <span>PAGESAPP</span>
         </Logo>
 
         <Middle>
 
-        <QuestionNumber number={10} isAnswered='grey'/>
-        <QuestionNumber/>
-        <QuestionNumber/>
-        <QuestionNumber/>
-        <QuestionNumber/>
+        <QuestionNumber number={1} background={'grey'}/>
+        <QuestionNumber number={2} background={'grey'}/>
+        <QuestionNumber number={3} background={'grey'}/>
+        <QuestionNumber number={4} background={'grey'}/>
+        <QuestionNumber number={5} background={'grey'}/>
         </Middle>
 
         <Left>
