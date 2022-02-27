@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Nav from './Navbar/Nav'
+import Questions from './pages/Questions'
 const Container = styled.div`
  background-color:#e7ecff;
  height:100vh;
@@ -8,8 +9,9 @@ const Container = styled.div`
 `
 const App = () => {
   return (
+	  
 	<Container>
-		<Nav/>
+		<Questions/>
 	</Container>
   )
 }

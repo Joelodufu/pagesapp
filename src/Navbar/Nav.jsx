@@ -18,7 +18,7 @@ const Logo = styled.div`
 
 const Middle = styled.div`
   flex: 1;
-  border-left: solid 0.2px rgb(216, 216, 216);
+  border-left: solid 0.2px rgb(177, 125, 125);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,6 @@ const Image = styled.img`
 const Nav = () => {
   const questions = [
     {
-      number: 1,
       isAnswered: true,
       question: "what is buharry's surname?",
       options: [
@@ -82,9 +81,14 @@ const Nav = () => {
       ],
     },
     {
-      number: 3,
       isAnswered: false,
       question: "what is a Tree?",
+      description :{
+        descText:"explain in text",
+        descImage:"./logo.png",
+        descVideo:"./video.mp4",
+        descAudio:"./audio.mp3"
+      },
       options: [
         {
           isCorrect: false,
@@ -105,6 +109,9 @@ const Nav = () => {
       ],
     },
   ];
+  const handleClick=(e)=>{
+    console.log('clicked');
+  }
   return (
     <Container>
       <Logo>
@@ -116,7 +123,7 @@ const Nav = () => {
           {
               questions.map(
                   question=>(
-                    <QuestionNumber number={question.number} background={question.isAnswered?"green":"blue"} />
+                    <QuestionNumber onClick={()=>handleClick()} key={questions.indexOf(question)} number={questions.indexOf(question)+1} background={question.isAnswered?"green":"blue"} />
                   )
               )
           }

@@ -23,7 +23,94 @@ export const questions = [
     ],
   },
   {
-    number: 2,
+    isAnswered: false,
+    question: "what is last month of the year?",
+    options: [
+      {
+        isCorrect: false,
+        answer: "January",
+      },
+      {
+        isCorrect: false,
+        answer: "February",
+      },
+      {
+        isCorrect: false,
+        answer: "Decender",
+      },
+      {
+        isCorrect: true,
+        answer: "December",
+      },
+    ],
+  },
+  {
+    isAnswered: false,
+    question: "what is last month of the year?",
+    options: [
+      {
+        isCorrect: false,
+        answer: "January",
+      },
+      {
+        isCorrect: false,
+        answer: "February",
+      },
+      {
+        isCorrect: false,
+        answer: "Decender",
+      },
+      {
+        isCorrect: true,
+        answer: "December",
+      },
+    ],
+  },
+  {
+    isAnswered: false,
+    question: "what is last month of the year?",
+    options: [
+      {
+        isCorrect: false,
+        answer: "January",
+      },
+      {
+        isCorrect: false,
+        answer: "February",
+      },
+      {
+        isCorrect: false,
+        answer: "Decender",
+      },
+      {
+        isCorrect: true,
+        answer: "December",
+      },
+    ],
+  },
+  {
+    isAnswered: false,
+    question: "what is last month of the year?",
+    options: [
+      {
+        isCorrect: false,
+        answer: "January",
+      },
+      {
+        isCorrect: false,
+        answer: "February",
+      },
+      {
+        isCorrect: false,
+        answer: "Decender",
+      },
+      {
+        isCorrect: true,
+        answer: "December",
+      },
+    ],
+  },
+  {
     isAnswered: false,
     question: "what is last month of the year?",
     options: [
@@ -69,99 +156,6 @@ export const questions = [
     ],
   },
   {
-    number: 2,
-    isAnswered: false,
-    question: "what is last month of the year?",
-    options: [
-      {
-        isCorrect: false,
-        answer: "January",
-      },
-      {
-        isCorrect: false,
-        answer: "February",
-      },
-      {
-        isCorrect: false,
-        answer: "Decender",
-      },
-      {
-        isCorrect: true,
-        answer: "December",
-      },
-    ],
-  },
-  {
-    number: 2,
-    isAnswered: false,
-    question: "what is last month of the year?",
-    options: [
-      {
-        isCorrect: false,
-        answer: "January",
-      },
-      {
-        isCorrect: false,
-        answer: "February",
-      },
-      {
-        isCorrect: false,
-        answer: "Decender",
-      },
-      {
-        isCorrect: true,
-        answer: "December",
-      },
-    ],
-  },
-  {
-    number: 2,
-    isAnswered: false,
-    question: "what is last month of the year?",
-    options: [
-      {
-        isCorrect: false,
-        answer: "January",
-      },
-      {
-        isCorrect: false,
-        answer: "February",
-      },
-      {
-        isCorrect: false,
-        answer: "Decender",
-      },
-      {
-        isCorrect: true,
-        answer: "December",
-      },
-    ],
-  },
-  {
-    number: 2,
-    isAnswered: false,
-    question: "what is last month of the year?",
-    options: [
-      {
-        isCorrect: false,
-        answer: "January",
-      },
-      {
-        isCorrect: false,
-        answer: "February",
-      },
-      {
-        isCorrect: false,
-        answer: "Decender",
-      },
-      {
-        isCorrect: true,
-        answer: "December",
-      },
-    ],
-  },
-  {
-    number: 3,
     isAnswered: false,
     question: "what is a Tree?",
     options: [
