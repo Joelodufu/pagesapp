@@ -11,20 +11,23 @@ const Question = () => {
     display: flex;
   `;
   const QuestionContainer = styled.div`
-    width: 75%;
+    padding:10px;
+    flex:2;
     height: 100%;
     background: white;
   `;
 
   const OptionContainer = styled.div`
-    width: 25%;
+    flex: 1;
     height: 100%;
     background: #e7f7e7;
   `;
 
   const QuestionWrapper = styled.div`
     width: 100%;
-    height: 70%;
+
+    max-height: 80%;
+    min-height: 60%;
     overflow: scroll;
     background: white;
     padding: 10px;

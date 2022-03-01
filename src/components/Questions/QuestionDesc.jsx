@@ -1,16 +1,15 @@
-import React from 'react'
-import styled from 'styled-components'
-const Container = styled.div`
-
-`
+import React from "react";
+import styled from "styled-components";
+const Container = styled.div``;
 const QuestionDesc = () => {
   return (
-    <Container className='description'>
-        <img width="100%" src="./chart2.gif" alt="question image" />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae necessitatibus inventore commodi perferendis doloremque officia veritatis dignissimos, incidunt nulla facere itaque quidem illum minus. Laudantium at, corporis impedit minus vero cum praesentium eveniet explicabo, veniam tenetur in! Quas sequi obcaecati veritatis nemo itaque beatae quidem ea inventore quod, accusamus, iure sapiente possimus! Earum animi ad, molestias enim nostrum architecto dolor praesentium maiores. Numquam, asperiores provident beatae quibusdam adipisci optio perferendis molestiae vero reprehenderit id dolorem explicabo quod fugiat! Consectetur quos numquam laboriosam, vel in, dolores architecto rerum eius aliquid non dolor itaque reiciendis. Consequatur atque esse iure sequi earum reprehenderit.</p>
+    <Container className="description">
+      <img width="100%" src="./spring.gif" alt="question image" />
+      <p>
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nobis dolore neque corrupti ex hic quidem, quibusdam nihil numquam a tempore earum, vitae et modi nulla laudantium aut, at exercitationem corporis fugit! Ratione, recusandae nisi. Ullam praesentium architecto a saepe laboriosam hic iure repellendus aut earum fugiat voluptatibus at eligendi ad sequi dicta dolorum voluptates officia inventore culpa, nobis consequatur molestiae dolore voluptatum? Velit cupiditate reprehenderit hic impedit suscipit eum eos eius voluptatibus? Esse, culpa facere omnis veniam rem harum officia saepe consequatur magnam modi alias voluptates vitae ab hic repellat officiis velit libero accusamus nostrum aliquid, voluptas repudiandae laboriosam ipsa ratione! Neque quod, reiciendis iste officia itaque a rem sequi eligendi assumenda, incidunt voluptatibus molestiae necessitatibus, magnam iure! Magni doloribus dolores impedit ea odio. Sed sapiente molestiae tempora rem eum, perspiciatis placeat eos ullam itaque quibusdam maxime non voluptatibus reiciendis quos! Officia, rerum. Quae ab nihil unde aperiam magnam, voluptas nesciunt architecto optio impedit eum enim similique rerum nisi a, non soluta esse. Molestiae quod labore debitis odit at vel accusantium maxime expedita, illum esse corporis perspiciatis tempore culpa provident porro consequuntur laboriosam, eum, ea saepe adipisci necessitatibus mollitia vero quaerat! A quo facilis libero rerum nam itaque enim! Mollitia vero eos natus non deleniti vel numquam ut dicta inventore possimus rem libero minima dolores sapiente quisquam tenetur quos optio cum nostrum, a adipisci. Aliquid, nihil eveniet. In eum et at nisi, sit soluta iusto error fuga, natus quisquam pariatur reprehenderit delectus quibusdam voluptas quos tempora, dolorem porro vitae nam facere. Odit et ducimus repellendus cupiditate error quae ratione iusto fugiat saepe, distinctio in dolor fugit excepturi modi autem natus nostrum maiores impedit, at quasi officiis. Natus explicabo sunt dolorum temporibus, quae, autem consequatur, laboriosam vel iusto nostrum ipsa officia minima optio? Esse, quis! Dolores molestiae deleniti magni provident at esse ab quia maiores. Voluptatum praesentium quod facere similique nemo laboriosam eveniet iste atque eos reiciendis quibusdam eius assumenda vel aperiam qui possimus, neque explicabo sequi dolor molestiae accusantium. Necessitatibus nihil temporibus amet qui saepe recusandae quisquam. Quos quam autem rem ducimus quasi pariatur quia fuga explicabo rerum mollitia corrupti quis, omnis minima reprehenderit non magnam repellendus. Amet cum deleniti illum aut, aperiam, voluptate fuga, inventore nobis consectetur quibusdam nesciunt dolorem. In, temporibus aperiam eveniet repudiandae iste possimus nisi reiciendis nam provident assumenda enim corporis laborum molestiae saepe obcaecati cumque, optio, aut doloremque aliquam vitae natus impedit deleniti! Sapiente eveniet omnis dignissimos eos distinctio consequatur laudantium modi nisi repudiandae libero repellendus sed itaque velit quidem aut illo minima, delectus nulla accusamus beatae voluptate impedit corrupti, fugit hic! Omnis officia distinctio repellat ratione, temporibus deserunt blanditiis facere, adipisci facilis, vero eius praesentium ex eaque dolorem tempora dicta nam aperiam delectus dolor quaerat sequi. A animi inventore corporis maxime assumenda ipsum atque earum? Est quia, nobis laboriosam non, commodi tempore sit quasi, vel voluptas itaque similique reiciendis quidem saepe eaque at recusandae dolore. Itaque optio nisi commodi provident. Perspiciatis iure delectus doloremque aliquid, cumque a doloribus, nulla dolore sit adipisci odio.
+      </p>
     </Container>
+  );
+};
 
-  )
-}
-
-export default QuestionDesc
+export default QuestionDesc;
